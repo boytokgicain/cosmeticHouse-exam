@@ -40,6 +40,7 @@ header section img {
 	padding: 0 10px;
 	margin: auto;
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	z-index: 2;
 }
@@ -47,6 +48,9 @@ header section img {
 	display: inline-block;
 }
 .logo2 {
+	display: none;
+}
+.mobile-icon {
 	display: none;
 }
 nav {
@@ -262,6 +266,10 @@ footer p, footer a, footer label {
 		width: 160px;
 		display: inline-block;
 	}
+	.mobile-icon {
+		margin: 0;
+		display: inline-block !important;
+	}
 	h1 {
 		font-size: 45px;
 		line-height: 50px;
@@ -289,7 +297,8 @@ footer p, footer a, footer label {
 	nav {
 		height: 100px;
 	}
-	nav div > div:first-child a:nth-child(n+2) {
+	nav div > div:first-child a:nth-child(n+2),
+	nav div > div:last-child a {
 		display: none;
 	}
 	section {
