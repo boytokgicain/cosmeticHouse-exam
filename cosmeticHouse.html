@@ -2,136 +2,140 @@
 <html>
 <head>
 	<title>Cosmetic House</title>
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, follow">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="cosmeticHouse.css">
 </head>
-<style type="text/css">
-	* {
-		padding: 0;
-		margin: 0;
-	}
-	h1, h2, h3, h4, h5, h6, button {
-		font-family: 'Roboto', Helvetica, Arial,sans-serif;
-	}
-	a, p {
-		font-family: 'Quicksand', Helvetica, Arial,sans-serif;
-	}
-	a {
-		text-decoration: none;
-	}
-	header {
-		width: 100%;
-		height: 800px;
-		background: url('images/autumn-goodman-unsplash.png');
-	}
-	header section img {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		width: 100%;
-		z-index: 0;
-	}
-	.inner-wrapper {
-		width: 960px;
-		padding: 0 10px;
-		margin: auto;
-	}
-	nav {
-		width: 100%;
-		height: 100px;
-		background: #fff;
-	}
-	nav a {
-		color: #1A3C34;
-		font-size: 14px;
-		font-weight: 700;
-		margin-right: 50px;
-	}
-	nav .inner-wrapper {
-		
-		height: 100%;
-		
-		display: flex;
-    	align-items: center;
-	}
-	nav .inner-wrapper > div {
-		display: flex;
-		align-items: center;
-	}
-	header section {
-		height: 100%;
-		display: flex;
-    	align-items: center;
-	}
-	header section div {
-		width: 600px;
-	}
-	header h1, header p {
-		color: #fff;
-	}
-	header h1 {
-		margin-bottom: 1rem;
-	}
-	header p {
-		margin-bottom: 2rem;
-	}
-	header h1 {
-		font-size: 64px;
-		line-height: 70px;
-	}
-	header p {
-		font-size: 18px;
-	}
-	button {
-		font-size: 16px;
-		font-weight: 700;
-		text-transform: uppercase;
-		border: none;
-		padding: 13px 38px;
-		cursor: pointer;
-	}
-	.btn-black {
-		color: #fff;
-		background: #1A3C34; 
-	}
-	.btn-white {
-		color: #1A3C34;
-		background: #fff;
-	}
-</style>
 <body>
 	<div id="container">
-		<header>
-			<nav>
-				<div class="inner-wrapper">
-					<div>
-						<a href=""><img src="images/cosmeticHouse-logo.png"></a>
-						<a href="">About us</a>
-						<a href="">Services</a>
-						<a href="">Products</a>
-						<a href="">Contact us</a>
-					</div>
-					<div>
-						<a href=""></a>
-						<a href=""></a>
-					</div>
+		<nav>
+			<div class="inner-wrapper">
+				<div>
+					<a href="">
+						<img src="images/cosmeticHouse-logo.png" class="logo1" alt="">
+						<img src="images/cosmeticHouse-logo@2x.png" class="logo2" alt="">
+					</a>
+					<a href="">About us</a>
+					<a href="">Services</a>
+					<a href="">Products</a>
+					<a href="">Contact us</a>
 				</div>
-			</nav>
+				<div>
+					<a href=""></a>
+					<a href=""></a>
+				</div>
+			</div>
+		</nav>
+		<header>
 			<section class="inner-wrapper">
 				<div>
 					<h1>Lorem ipsum dolor sit amet</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 					<button class="btn-black">Learn More</button>
 				</div>
 			</section>
+			<img src="images/autumn-goodman-unsplash.png" class="bg-photo" alt="">
 		</header>
-		<div>
-			
-		</div>
+		<section class="sec1">
+			<div class="inner-wrapper">	
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+		</section>
+		<section class="sec2">
+			<div>
+				<button class="btn-white">Services</button>
+				<img src="images/noah-buscher-unsplash.png" class="bg-photo" alt="">
+			</div>
+			<div>
+				<button class="btn-white">Products</button>
+				<img src="images/chandra-unsplash.png" class="bg-photo" alt="">
+			</div>
+		</section>
+		<section class="sec3">
+			<div class="inner-wrapper">	
+				<h2>About this Space</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+		</section>
+		<section class="sec4">
+			<div>
+				<div>
+					<a href="">Follow us on Instagram</a>
+					<img src="images/gabrielle-henderson-unsplash.png" class="bg-photo" alt="">
+				</div>
+			</div>
+			<div>
+				<div>
+					<a href="">Follow us on Instagram</a>
+					<img src="images/amplitude-magazin-unsplash.png" class="bg-photo" alt="">
+				</div>
+			</div>
+			<div>
+				<div>
+					<a href="">Follow us on Instagram</a>
+					<img src="images/alexander-mils-unsplash.png" class="bg-photo" alt="">
+				</div>
+			</div>
+			<div>
+				<div>
+					<a href="">Follow us on Instagram</a>
+					<img src="images/muhammad-unsplash.png" class="bg-photo" alt="">
+				</div>
+			</div>
+			<div>
+				<div>
+					<a href="">Follow us on Instagram</a>
+					<img src="images/angelos-michalopoulos-unsplash.png" class="bg-photo" alt="">
+				</div>
+			</div>
+			<div>
+				<div>
+					<a href="">Follow us on Instagram</a>
+					<img src="images/dose-juice-unsplash.png" class="bg-photo" alt="">
+				</div>
+			</div>
+		</section>
 		<footer>
-			
+			<div class="inner-wrapper">
+				<section>
+					<div>
+						<a href="">
+							<img src="images/cosmeticHouse-logo-white.png" class="logo1" alt="">
+							<img src="images/cosmeticHouse-logo-white@2x.png" class="logo2" alt="">
+						</a>
+					</div>
+					<div>
+						<div>
+							<label>Cosmetic House</label>
+							<a href="">About us</a>
+							<a href="">Services</a>
+							<a href="">Products</a>
+							<a href="">Contact us</a>
+						</div>
+						<div>
+							<label>Legal</label>
+							<a href="">Privacy Policy</a>
+							<a href="">Terms & Conditions</a>
+							<a href="">FAQ</a>
+						</div>
+						<div>
+							<label>Social</label>
+							<div>
+								<a href="">IG</a>
+								<a href="">FB</a>
+								<a href="">NOTIF</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section><p>© 2020 Cosmetic House</p></section>
+			</div>
 		</footer>
 	</div>
 </body>
