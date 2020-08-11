@@ -173,6 +173,9 @@ button {
 	z-index: 2;
 	visibility: hidden;
 }
+.sec4 a i {
+	margin-right: .5rem;
+}
 .sec4 > div:hover a {
 	visibility: visible;
 }
